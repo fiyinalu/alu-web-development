@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --purple-color: #c271ff;
+  --white-color: #ffffff;
+}
+
+body {
+  font-family: "Source Sans 3", serif;
+}
+
+body .header__banner {
+  width: 100%;
+  min-height: 68rem;
+  color: var(--white-color);
+  background: url("/css_advanced/assets/banner-bg.png") center/cover no-repeat;
+}
+
+/* Navigation */
+.nav__bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 9rem;
+}
+
+.nav__links {
+  display: flex;
+  gap: 55px;
+}
+
+.nav__links a {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.banner .banner__cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8.5rem;
+}
+
+/* H1: Get Schooled */
+.banner div h1 {
+  font-size: 7.3rem;
+  font-weight: 800;
+}
+
+/* Texts: Smile, Grin and Laugh */
+.banner__cta .banner__text {
+  display: flex;
+  gap: 3.75rem;
+  margin-top: -0.9rem;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+button {
+    color: var(--white-color);
+    padding: 1rem 1.2rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: var(--purple-color);
+}
+
+.banner .register__btn {
+  margin-top: 1.6rem;
+}
+
+.banner .profile__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 11rem;
+}
+
+.profile__container .profile__list {
+  display: flex;
+  gap: 20px;
+  padding: 1rem;
+}
+
+.highlight__purple {
+  color: var(--purple-color);
+  font-weight: 700;
+}
+
+.profile__container h2 {
+    font-size: 1.8rem;
+    font-weight: 200;
+}
+
+.profile__list .profile {
+    max-width: 20rem;
+    margin-top: 2.5rem;
+    text-align: center;
+    padding: 0 4rem;
+}
+
+.profile__list .profile p {
+    font-size: 0.7rem;
+    font-weight: 400;
+    font-style: italic;
+    max-width: 6.5rem;
+    margin-left: 0.5rem;
+}
